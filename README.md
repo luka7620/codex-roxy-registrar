@@ -147,3 +147,6 @@ node index.js --auto --prefer-group-id 1
 ## 注意事项
 
 - 如果账号被删除/停用，工具会跳过该账号继续后续流程
+
+## 友情链接
+- linux.do
