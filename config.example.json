@@ -1,0 +1,35 @@
+{
+  "sub2apiBaseUrl": "http://127.0.0.1:18080",
+  "sub2apiAdminEmail": "admin@example.com",
+  "sub2apiAdminPassword": "",
+  "sub2apiTurnstileToken": "",
+  "mailBaseUrl": "https://your-mail-worker.example.workers.dev",
+  "mailAdminPassword": "",
+  "mailSitePassword": "",
+  "mailDomain": "",
+  "mailTimeoutMs": 45000,
+  "oauthRedirectUri": "http://localhost:1455/auth/callback",
+  "tokenOutputDirs": [
+    "tokens"
+  ],
+  "tokenFilenameMode": "plan",
+  "reauthLogFile": "data/reauth-log.json",
+  "browserWindowWidth": 960,
+  "browserWindowHeight": 540,
+  "browserWindowStartX": 0,
+  "browserWindowStartY": 0,
+  "useChrome": true,
+  "chromePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "useEdge": false,
+  "edgePath": "",
+  "candidateErrorKeywords": [
+    "invalid_grant",
+    "Token refresh failed",
+    "Authentication failed (401)",
+    "token_revoked",
+    "token_invalidated",
+    "unauthenticated"
+  ],
+  "preferredGroupNames": [],
+  "preferredGroupIds": []
+}
